@@ -1,0 +1,206 @@
+/*==========================*/
+/* ==== Universal Styles ==== */
+/*==========================*/
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+
+/*==========================*/
+/* ==== Header Section ====*/
+/*==========================*/
+
+#header {
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 5;
+}
+
+img.logo {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  margin-left: 10px;
+  height: 50px;
+}
+
+#nav {
+  position: fixed;
+  top: -10px;
+  right: 10px;
+
+}
+
+#nav li {
+  display: inline-flex;
+  margin: 10px;
+}
+
+#nav a {
+  color: white;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+#nav a:hover {
+  color: seashell;
+  text-decoration: underline;
+}
+
+
+/*==========================*/
+/*==== Container Section ====*/
+/*==========================*/
+
+
+
+/* Banner Image Section */
+div#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  position: relative;
+  margin: 0 auto;
+
+}
+
+
+.missionDetails {
+  color: seashell;
+  position: absolute;
+  top: 250px;
+  background-color: black;
+  width: 100%;
+  margin: 50px auto;
+  height: 115px;
+  text-align: center;
+  padding-bottom: 0px;
+  padding:  2px;
+  
+}
+
+.missionDetails h2 {
+  margin-top: 10px;
+  margin-bottom: 25px;
+
+}
+
+
+
+/* Tea of the Month Section */
+#featured {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+
+#featured h3 {
+  font-size: 22px;
+}
+
+
+.productPreview { /* Parent Container for display:flex */
+  font-size: 18px;
+  font-weight: bold;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.product img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.productPreview p {
+  font-size: 22px;
+  margin: 0;
+}
+
+
+/*==========================*/
+/*==== Location Section ====*/
+/*==========================*/
+
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  width: 1200px;
+  margin: 80px auto 20px auto;
+  height: 580px; /* MADE IMAGE LARGER THAN SPEC TO SHOW AS MUCH OF TEA CUP AS IN SPEC */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+#locations h2 { 
+  position: absolute;
+  top: 55px;
+  text-align: right;
+
+}
+
+.location.square {
+  background-color: black;
+  width: 300px;
+  height: 255px;
+  margin: 0px 40px 0 0;
+  opacity: 1;
+}
+
+span.info {
+  display: block;
+  margin-bottom: 20px;
+
+}
+
+
+/*==========================*/
+/*==== Footer Section ====*/
+/*==========================*/
+
+
+div#footer {
+  height: 200px;
+}
+
+#footer h2 {
+  margin-top: 0px;
+}
+
+#footer h5 {
+  margin-top: 40px;
+}
+
+
+#footer p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p.copyright {
+  text-align: left;
+  font-size: 22px;
+  margin-top: 100px;
+  margin-left: 20px;
+
+}
